@@ -1,0 +1,29 @@
+{
+  "name": "skill-to-gig-backend",
+  "version": "1.0.0",
+  "description": "Node.js Express API for Skill-to-Gig marketplace",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelinemugabejakata/skill-to-gig-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelinemugabejakata/skill-to-gig-backend/issues"
+  },
+  "homepage": "https://github.com/angelinemugabejakata/skill-to-gig-backend#readme",
+  "devDependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "uuid": "^14.0.2"
+  }
+}
